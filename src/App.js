@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Enter your date of birth.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <input type="date" name="App-date" id="App-date" />
+        <button
+          className="App-button"
         >
-          Learn React
-        </a>
+          Click me
+        </button>
       </header>
     </div>
   );

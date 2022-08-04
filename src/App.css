@@ -24,6 +24,7 @@
   background-color: #282c34;
   box-shadow: #61dafb 0px 0px 10px 1px;
   cursor: pointer;
+  border: solid 1px black;
 }
 .App-button:hover {
   color: #fb6161;

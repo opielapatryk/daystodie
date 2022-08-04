@@ -25,6 +25,7 @@
   box-shadow: #61dafb 0px 0px 10px 1px;
   cursor: pointer;
   border: solid 1px black;
+  transition: color .3s, box-shadow .3s;
 }
 .App-button:hover {
   color: #fb6161;
